@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    width: 1600px;
+    /* width: 1600px; */
     font-family: 'Fira Sans', sans-serif;
 }
 body {
@@ -147,6 +147,37 @@ main {
     font-weight: 600;
     border: none;
     color: white;
+
+}
+.quote-div {
+    font-family: 'fira sans', sans-serif;
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 32px;
+    padding: 24px;
+}
+.quote-content {
+    
+    background-image: url('../assets/quote-bg.png');
+    background-size: 64px;
+    background-repeat: no-repeat;
+    padding: 48px 0px;
+}
+.quote-speech {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0px;
+    padding: 0px;
+}
+.quote-title {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 600;
+    margin-top: 12px;
+}
+.quote-subtitle {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
 }
 .news {
     font-family: 'Fira Sans', sans-serif;
