@@ -105,6 +105,8 @@ main {
 .pillars-title {
     margin-bottom: 32px;
     margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
 }
 .pillars-container {
     display: flex;
@@ -115,6 +117,10 @@ main {
     background-color: white;
     padding: 24px;
     border-radius: 16px;
+}
+.pillers-icon {
+    width: 64px;
+    height: 64px;
 }
 .pillers-item-title {
     font-size: 20px;
