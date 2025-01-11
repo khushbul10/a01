@@ -102,6 +102,29 @@ main {
     width: 473px;
     height: 400px;
 }
+.pillars-title {
+    margin-bottom: 32px;
+    margin-top: 50px;
+}
+.pillars-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.pillars-item {
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+}
+.pillers-item-title {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 16px 0px 24px 0px;
+}
+.pillers-item-desc {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
 .future {
     font-family: 'Fira Sans', sans-serif;
     width: 1280px;
@@ -193,6 +216,7 @@ main {
     margin-top: 40px;
     background-color: white;
     padding: 32px;
+    border-radius: 16px;
 }
 .openion-table {
     width: 1216px;
@@ -207,6 +231,7 @@ main {
 }
 .openion-table-head {
     background-color: #C6E4D6;
+    height: 70px;
 }
 
 select {
