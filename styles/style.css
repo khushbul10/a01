@@ -27,6 +27,11 @@ body {
 .yellow-btn {
     background-color: #ffc239;
 }
+.btn-to-white:hover {
+    background-color: white;
+    color: #006A50;
+    border: #006A50, 1px, solid;
+}
 nav
 {
     padding: 30px 160px 30px 160px;
@@ -47,13 +52,16 @@ nav button {
     font-size: 18px;
     border: #006a50, 1px, solid;
 }
+.nav-btn:hover {
+    background-color: #006A50;
+    color: white;
+    border: #006A50, 1px, solid;
+}
 main {
     width: 1280px;
     padding: 0px 160px 0px 160px;
 }
 .banner {
-    width: 1280px;
-    height: 560px;
     background-color: #C6E4D6;
     font-family: 'Fira Sans', sans-serif;
     display: flex;
@@ -62,11 +70,12 @@ main {
     gap: 6px;
     border-radius: 24px;
     margin-top: 20px;
+    padding: 60px;
 }
 .banner-titles {
     display: flex;
     flex-direction: column;
-    margin: 0px 60px;
+    /* margin: 0px 60px; */
     width: 622px;
 }
 .banner-subtitle {
@@ -264,8 +273,6 @@ main {
     justify-content: space-around;
 }
 .donate-items {
-    width: 250px;
-    height: 130px;
     border-radius: 16px;
     background-color: white;
     border: rgba(14, 14, 14, 0.15), 1px, solid;
@@ -297,6 +304,7 @@ main {
     margin: 20px;
 }
 .subscribe {
+    margin-top: 80px;
     text-align: center;
     width: 1280px;
     background-color: #C6E4D6;
@@ -345,4 +353,21 @@ main {
     font-size: 16px;
     margin: 16px;
     padding-bottom: 80px;
+}
+.footer {
+    padding: 50px 160px;
+    width: 1280px;
+    text-align: center;
+    background-color: white;
+}
+.footer-title {
+    font-size: 32px;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+.footer-social {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
