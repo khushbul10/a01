@@ -184,9 +184,38 @@ main {
     font-weight: 600;
     margin-top: 12px;
 }
+
 .quote-subtitle {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.8);
+}
+.table-div {
+    margin-top: 40px;
+    background-color: white;
+    padding: 32px;
+}
+.openion-table {
+    width: 1216px;
+    height: 345px;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-weight: 600;
+}
+.openion-table, th, td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding-left: 24px;
+}
+.openion-table-head {
+    background-color: #C6E4D6;
+}
+
+select {
+    background-color: #C6E4D6;
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    height: 55px;
+    line-height: 50px;
 }
 .news {
     font-family: 'Fira Sans', sans-serif;
